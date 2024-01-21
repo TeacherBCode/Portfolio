@@ -21,8 +21,9 @@ h3{
 
 
 .top_div{
-    background-image: linear-gradient(#0499d1,#a4dbf7,#f0f6f9,#fedab3);
+    background-image: linear-gradient(#0499d1,#71c7f3,#f0f6f9,#fedab3);
     position: relative;
+    padding-top: 100px;
 }
 
 .Heading-article{
