@@ -1,0 +1,97 @@
+
+body {
+    margin:0;
+    background-color: #f7e4bf ;
+    text-align: center;
+}
+hr { 
+    border-top: 7px dotted #9096a3;
+    width : 10%;
+}
+
+h1{
+    color : #ffffff;
+}
+
+h3{
+    color: #87C4FF;
+}
+
+/******************Class Selectors *******************************/
+
+
+.top_div{
+    background-image: linear-gradient(#0499d1,#a4dbf7,#f0f6f9,#fedab3);
+    position: relative;
+}
+
+.Heading-article{
+    display: inline-block;
+    position: relative;
+    width: 500px;
+}
+
+.Table_Spacing{
+    display: inline-block;
+    border-spacing: 40px;
+    margin: 0 auto;
+}
+
+.Img_Size{
+    width: 200px;
+    height: 200px;
+}
+
+.Wobble_Shape{
+    animation: morph 9s ease-in-out infinite;
+}
+@keyframes morph{
+    0%{
+        border-radius: 60% 40%  30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40%  30% 70% / 60% 30% 70% 40%;
+    }
+}
+
+
+
+.cloud_size{
+    width: 200px;
+    height: 100px;
+}
+
+.top-cloud{
+    display: inline-block;
+    position: absolute;
+    right: 100%;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    display: inline-block;
+    bottom: 50px;
+    left: 100%;
+    
+}
+
+.beach_size{
+    width: 100%;
+    height: 250px;
+    position:relative;
+    bottom: 0%;
+}
+
+
+
+
+
+
+.art_border{
+    margin: 0 auto;
+}
+
