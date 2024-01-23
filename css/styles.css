@@ -1,8 +1,9 @@
 
 body {
     margin:0;
-    background-color: #f7e4bf ;
+    background-color: #f9edd7 ;
     text-align: center;
+    font-family: 'Outfit', sans-serif;
 }
 hr { 
     border-top: 7px dotted #9096a3;
@@ -10,18 +11,41 @@ hr {
 }
 
 h1{
+    font-family: 'Norican', cursive;
     color : #ffffff;
+    font-size:5rem;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #3468C0;
+    font-size:1.6rem;
+    margin-top: 0;
 }
 
 h3{
-    color: #87C4FF;
+    font-family: 'Poppins', sans-serif;
+    color: #86A7FC;    
 }
+
+p{
+    font-size: 1.15rem;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #326af9;    
+}
+
+
 
 /******************Class Selectors *******************************/
 
 
 .top_div{
-    background-image: linear-gradient(#0499d1,#71c7f3,#f0f6f9,#fedab3);
+    background-image: linear-gradient(#0499d1,#71c7f3,#e2f3fb,#f0f6f9,#fedab3);
     position: relative;
     padding-top: 100px;
 }
@@ -29,18 +53,13 @@ h3{
 .Heading-article{
     display: inline-block;
     position: relative;
-    width: 500px;
+    width: 60%;
 }
 
-.Table_Spacing{
-    display: inline-block;
-    border-spacing: 40px;
-    margin: 0 auto;
-}
 
 .Img_Size{
-    width: 200px;
-    height: 200px;
+    float: right;
+    width: 30%
 }
 
 .Wobble_Shape{
@@ -68,7 +87,7 @@ h3{
 .top-cloud{
     display: inline-block;
     position: absolute;
-    right: 100%;
+    right: 95%;
 
 }
 
@@ -76,23 +95,99 @@ h3{
     position: absolute;
     display: inline-block;
     bottom: 50px;
-    left: 100%;
+    left: 105%;
     
 }
 
 .beach_size{
     width: 100%;
-    height: 250px;
+    height: 300px;
     position:relative;
     bottom: 0%;
+    margin-top: 20px;
 }
 
 
 
 
-
+.profile{
+    width:60%;
+    margin:1rem auto 2rem auto;
+}
 
 .art_border{
     margin: 0 auto;
 }
 
+.skills{
+    padding: 1rem;
+}
+
+.skill-row{
+    width: 60%;
+    margin: 3rem auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.skill-row-img-one{
+    border-radius: 100%;
+    max-width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-row-img-two{
+    border-radius: 50%;
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me{
+    padding-top: 2rem;
+    padding-bottom: 2rem ;
+    width:60%;
+    margin:1rem auto 2rem auto;
+    
+}
+
+
+.btn {
+    background: #1e71f7;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 29;
+    -moz-border-radius: 29;
+    border-radius: 29px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+  
+  .btn:hover {
+    background: #259ceb;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.bottom-container{
+    margin-bottom: 0;
+    background-color: #e2f3fb;
+    padding: 20px;
+}
+
+.footer-para{
+    margin-bottom: 0;
+    
+}
