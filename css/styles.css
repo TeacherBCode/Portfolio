@@ -53,7 +53,7 @@ a{
 .Heading-article{
     display: inline-block;
     position: relative;
-    width: 60%;
+    width: 50%;
 }
 
 
@@ -80,8 +80,7 @@ a{
 
 
 .cloud_size{
-    width: 200px;
-    height: 100px;
+    width: 25%
 }
 
 .top-cloud{
